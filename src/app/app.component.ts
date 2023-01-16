@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 })
 // methods or properties added below, custom, lifecycle
 export class AppComponent {
-  // suggested adding types to your properties, functions, 'title' is now'title: string'
-  title: string = 'Task Tracker';
+  // suggested adding types to your properties and functions, 
+  // 'title' is now  'title: string = 'Task Tracker';
+  // title: string = 'Task Tracker';
 }

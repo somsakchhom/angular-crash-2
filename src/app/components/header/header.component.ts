@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -11,6 +11,16 @@ import { Component } from '@angular/core';
 //  constructor() {}
 //  ngOnInit(): void {}
 // }
-export class HeaderComponent {
 
-}
+////////// how it was originally:  //////////////
+// export class HeaderComponent {
+
+// }
+// ///////////////////////////////////////////
+
+export class HeaderComponent implements OnInit {
+   title: string = 'Task Tracker';
+   constructor() {}
+
+   ngOnInit(): void {}
+  }
