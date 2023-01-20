@@ -1,0 +1,4 @@
+
+<!-- inline styling, you have to use a directive called ngStyle -->
+<!-- Event binding 27:31, '(click)' is the event binding used to bind the 'onClick()' custom method to the 'click' event of the button. 'onClick can be found in buttons.components.ts in the export class' -->
+<button [ngStyle]="{'background-color': color}" class="btn" (click)="onClick()">{{ text }}</button>
